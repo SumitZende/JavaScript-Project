@@ -1,11 +1,11 @@
 
 # NoteIt
 
-[NoteIt]( ) is a super cool note taking app, where you can add quiz or long notes and store it forever. You can use functionalities like pin, unpin and archive to make the most out of it.
+[NoteIt]( https://app-note-it.netlify.app/) is a super cool note taking app, where you can add quiz or long notes and store it forever. You can use functionalities like pin, unpin and archive to make the most out of it.
 
 
 ## List of features
-[Home Page]()
+[Home Page](https://app-note-it.netlify.app/)
 - In the home page, you can add note and also pin and unpin the note
 
 Archive Page
@@ -27,7 +27,7 @@ Archive Page
 
 
 ## Live Link
-
+https://app-note-it.netlify.app/
 
 
 
