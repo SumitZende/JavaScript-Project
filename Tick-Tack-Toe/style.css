@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --color: #f2c14e;
+    --winning-blocks : #2d414b;
+
+}
+
+body{
+    font-family: "Finger Paint", cursive;
+    color: var(--color);
+    user-select: none;
+}
+
+h1{
+    font-size: 54px;
+    text-transform: uppercase;
+   
+}
+
+.container{
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    background-color: #37505C;
+}
+
+#gameBoard{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.box{
+    height: 150px;
+    width :150px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: var(--color);
+    font-size: 150px;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.box:nth-child(3n){
+    border-right: none;
+}
+
+.box:nth-child(6)~.box{
+    border-bottom: none;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--color);
+    color: #333;
+    border:none ;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 200ms transform;
+
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
